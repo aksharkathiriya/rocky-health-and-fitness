@@ -1,0 +1,71 @@
+{
+  "name": "Rocky Health & Fitness",
+  "short_name": "Rocky Fitness",
+  "description": "Professional gym in Simada Gam, Surat. Best fitness center for strength training, weight loss, personal training & fitness guidance.",
+  "start_url": "/rocky-health-and-fitness/",
+  "scope": "/rocky-health-and-fitness/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1a1a1a",
+  "theme_color": "#ff6b35",
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["fitness", "health", "sports"],
+  "screenshots": [
+    {
+      "src": "images/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshot-2.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book Free Trial",
+      "short_name": "Free Trial",
+      "description": "Book a free trial session at Rocky Health & Fitness",
+      "url": "/rocky-health-and-fitness/contact.html",
+      "icons": [
+        {
+          "src": "images/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "View Membership Plans",
+      "short_name": "Plans",
+      "description": "Check our flexible gym membership plans",
+      "url": "/rocky-health-and-fitness/membership.html",
+      "icons": [
+        {
+          "src": "images/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}

@@ -1,0 +1,30 @@
+# Rocky Health & Fitness - robots.txt
+# This file tells search engines which pages to crawl
+
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+Disallow: /admin/
+Disallow: /private/
+
+# Allow crawling of all important pages
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /membership.html
+Allow: /gallery.html
+Allow: /contact.html
+
+# Sitemap location
+Sitemap: https://aksharkathiriya.github.io/rocky-health-and-fitness/sitemap.xml
+
+# Crawl delay (in seconds)
+Crawl-delay: 1
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
